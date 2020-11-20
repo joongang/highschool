@@ -1,0 +1,18 @@
+.ques{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    text-align: center;
+}
+input::placeholder{
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+input:focus{
+    outline: none;
+}
